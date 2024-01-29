@@ -1,0 +1,56 @@
+/* General styling */
+.cardDiv {
+    display: flex; /* Display cards in a row */
+    flex-wrap: wrap; /* Wrap cards to multiple rows if needed */
+    justify-content: space-around; /* Distribute cards evenly */
+    margin-top: 20px; /* Add spacing above cards */
+    background-color: rgb(241, 236, 236);
+    
+  }
+  
+  .cardDiv > * { /* Target direct children of cardDiv */
+    margin: 10px; /* Add spacing between cards */
+    width: 300px; /* Set card width (adjust as needed) */
+  }
+  
+  /* Input and button styling */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #ff6a25; /* background */
+    color: rgba(255, 255, 255, 0.717);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* RecipeCard styling (adjust based on your card structure) */
+  .recipeCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 150px;
+  }
+  
+  .recipeCard img {
+    width: 100%; /* Make image responsive */
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .recipeCard h2 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
