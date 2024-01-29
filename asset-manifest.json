@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cookSmart/static/css/main.2fa19b6d.css",
+    "main.js": "/cookSmart/static/js/main.ab8e7ba1.js",
+    "static/media/vid.mp4": "/cookSmart/static/media/vid.ca6b4b1d43f1974d47e8.mp4",
+    "static/media/search-bar.png": "/cookSmart/static/media/search-bar.dc5f5685618f30b68c09.png",
+    "index.html": "/cookSmart/index.html",
+    "main.2fa19b6d.css.map": "/cookSmart/static/css/main.2fa19b6d.css.map",
+    "main.ab8e7ba1.js.map": "/cookSmart/static/js/main.ab8e7ba1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fa19b6d.css",
+    "static/js/main.ab8e7ba1.js"
+  ]
+}
